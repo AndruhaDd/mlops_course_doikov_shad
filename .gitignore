@@ -1,14 +1,16 @@
-# данные
-data/raw/
-data/processed/
+cat >> .gitignore << 'EOF'
 
-# mlflow
+# --- data / artifacts (do not store in git) ---
+data/
+artifacts/
+models/
 mlruns/
+mlflow.db
 
 # python
 __pycache__/
 *.pyc
-.env
+.ipynb_checkpoints/
 
-# модели
-*.pkl
+# os
+.DS_Store
