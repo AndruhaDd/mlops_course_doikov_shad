@@ -1,0 +1,14 @@
+# данные
+data/raw/
+data/processed/
+
+# mlflow
+mlruns/
+
+# python
+__pycache__/
+*.pyc
+.env
+
+# модели
+*.pkl

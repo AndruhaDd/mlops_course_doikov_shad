@@ -1,0 +1,9 @@
+{
+  "dataset_path": "data/processed/v2_air_quality.csv",
+  "target_column": "AQI",
+  "model_type": "lightgbm",
+  "mse": 520.2083695457895,
+  "mae": 14.223979073557409,
+  "r2": 0.9219909444838905,
+  "mlflow_run_id": "161ede6fe07d41269255ed5a0b374ae9"
+}
