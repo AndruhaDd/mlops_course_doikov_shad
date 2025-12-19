@@ -95,7 +95,7 @@ docker compose up --build
 
 ```json
 {
-  "prediction": 186.9
+  "prediction": 131.34
 }
 ```
 
